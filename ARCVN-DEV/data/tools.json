@@ -1,0 +1,86 @@
+{
+  "title": "Developer Tools",
+  "description": "Small utilities for everyday development work.",
+  "tools": [
+    {
+      "id": "downloader",
+      "name": "Media Downloader",
+      "description": "Download media from supported public sources.",
+      "category": "Downloader",
+      "icon": "download",
+      "path": "/tools/downloader.html",
+      "status": "ready",
+      "featured": true
+    },
+    {
+      "id": "json-formatter",
+      "name": "JSON Formatter",
+      "description": "Format, validate, and minify JSON data.",
+      "category": "Developer",
+      "icon": "braces",
+      "path": "/tools/json-formatter.html",
+      "status": "ready",
+      "featured": true
+    },
+    {
+      "id": "base64",
+      "name": "Base64 Encoder / Decoder",
+      "description": "Encode and decode Base64 text locally.",
+      "category": "Encoder",
+      "icon": "binary",
+      "path": "/tools/base64.html",
+      "status": "ready",
+      "featured": false
+    },
+    {
+      "id": "url-parser",
+      "name": "URL Parser",
+      "description": "Inspect URL components and query parameters.",
+      "category": "Developer",
+      "icon": "link",
+      "path": "/tools/url-parser.html",
+      "status": "ready",
+      "featured": false
+    },
+    {
+      "id": "regex-tester",
+      "name": "Regex Tester",
+      "description": "Test regular expressions against sample text.",
+      "category": "Developer",
+      "icon": "regex",
+      "path": "/tools/regex-tester.html",
+      "status": "ready",
+      "featured": false
+    },
+    {
+      "id": "html-formatter",
+      "name": "HTML Formatter",
+      "description": "Indent and inspect HTML markup.",
+      "category": "Developer",
+      "icon": "code",
+      "path": "/tools/html-formatter.html",
+      "status": "ready",
+      "featured": false
+    },
+    {
+      "id": "hash-generator",
+      "name": "Hash Generator",
+      "description": "Generate SHA hashes using the browser crypto API.",
+      "category": "Security",
+      "icon": "hash",
+      "path": "/tools/hash-generator.html",
+      "status": "ready",
+      "featured": false
+    },
+    {
+      "id": "image-metadata",
+      "name": "Image Metadata",
+      "description": "Inspect image dimensions and basic file metadata.",
+      "category": "Media",
+      "icon": "image",
+      "path": "/tools/image-metadata.html",
+      "status": "ready",
+      "featured": false
+    }
+  ]
+}
