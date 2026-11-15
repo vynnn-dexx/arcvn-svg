@@ -1,0 +1,118 @@
+{
+  "title": "Scraper Collection",
+  "description": "Utilities for inspecting content you are allowed to access.",
+  "scrapers": [
+    {
+      "id": "web-scraper",
+      "name": "Web Scraper",
+      "description": "Extract page metadata and links from accessible pages.",
+      "category": "Web",
+      "path": "/scrape/web-scraper.html",
+      "status": "ready",
+      "language": "javascript",
+      "features": [
+        "Page metadata",
+        "Links",
+        "Canonical URL",
+        "Copy code"
+      ],
+      "codeFile": "/assets/js/scrapers/web-scraper.js"
+    },
+    {
+      "id": "image-scraper",
+      "name": "Image Scraper",
+      "description": "Collect image URLs from accessible HTML.",
+      "category": "Media",
+      "path": "/scrape/image-scraper.html",
+      "status": "ready",
+      "language": "javascript",
+      "features": [
+        "Image URLs",
+        "Alt text",
+        "Dimensions when available",
+        "Export results"
+      ],
+      "codeFile": "/assets/js/scrapers/image-scraper.js"
+    },
+    {
+      "id": "video-scraper",
+      "name": "Video Scraper",
+      "description": "Find video and source references in accessible HTML.",
+      "category": "Media",
+      "path": "/scrape/video-scraper.html",
+      "status": "ready",
+      "language": "javascript",
+      "features": [
+        "Video sources",
+        "Poster URLs",
+        "Source types",
+        "Export results"
+      ],
+      "codeFile": "/assets/js/scrapers/video-scraper.js"
+    },
+    {
+      "id": "api-scraper",
+      "name": "API Scraper",
+      "description": "Inspect JSON endpoints you are authorized to access.",
+      "category": "API",
+      "path": "/scrape/api-scraper.html",
+      "status": "ready",
+      "language": "javascript",
+      "features": [
+        "JSON response",
+        "Status code",
+        "Headers",
+        "Copy response"
+      ],
+      "codeFile": "/assets/js/scrapers/api-scraper.js"
+    },
+    {
+      "id": "html-scraper",
+      "name": "HTML Extractor",
+      "description": "Extract selected elements from accessible HTML.",
+      "category": "Web",
+      "path": "/scrape/html-scraper.html",
+      "status": "ready",
+      "language": "javascript",
+      "features": [
+        "CSS selectors",
+        "Text extraction",
+        "Attribute extraction",
+        "CSV export"
+      ],
+      "codeFile": "/assets/js/scrapers/html-scraper.js"
+    },
+    {
+      "id": "metadata-scraper",
+      "name": "Metadata Extractor",
+      "description": "Read Open Graph, Twitter, and standard metadata.",
+      "category": "Web",
+      "path": "/scrape/metadata-scraper.html",
+      "status": "ready",
+      "language": "javascript",
+      "features": [
+        "Open Graph",
+        "Twitter cards",
+        "Meta description",
+        "JSON export"
+      ],
+      "codeFile": "/assets/js/scrapers/metadata-scraper.js"
+    },
+    {
+      "id": "social-scraper",
+      "name": "Social Metadata Scraper",
+      "description": "Inspect publicly exposed social preview metadata.",
+      "category": "Social",
+      "path": "/scrape/social-scraper.html",
+      "status": "ready",
+      "language": "javascript",
+      "features": [
+        "Preview metadata",
+        "Canonical links",
+        "Open Graph fields",
+        "JSON export"
+      ],
+      "codeFile": "/assets/js/scrapers/social-scraper.js"
+    }
+  ]
+}
